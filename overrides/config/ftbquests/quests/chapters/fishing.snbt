@@ -2082,7 +2082,6 @@
 									lvl: 3
 								}
 							]
-							HideFlags: 1
 							Unbreakable: 1b
 							display: {
 								Lore: ["{\"text\":\"§6Legendary\"}"]
