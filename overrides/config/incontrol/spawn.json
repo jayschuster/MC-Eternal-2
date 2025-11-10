@@ -113,6 +113,14 @@
     "speedmultiply": 1.0
   },
   {
+    "mod": "species",
+    "when": "finalize",
+    "result": "allow",
+    "healthmultiply": 1.8,
+    "damagemultiply": 1.7,
+    "speedmultiply": 1.0
+  },
+  {
     "mod": "blighted_beasts", 
     "when": "finalize",
     "result": "allow",
