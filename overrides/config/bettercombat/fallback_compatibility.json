@@ -3,7 +3,7 @@
   "blacklist_item_id_regex": "pickaxe",
   "fallback_compatibility": [
     {
-      "item_id_regex": "claymore|great_sword|greatsword|pan|heart_seeker",
+      "item_id_regex": "claymore|great_sword|greatsword|pan|heart_seeker|species:spectralibur",
       "weapon_attributes": "bettercombat:claymore"
     },
     {
