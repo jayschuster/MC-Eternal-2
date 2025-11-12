@@ -2,5 +2,5 @@
   "type": "command",
   "id": "titles:friends",
   "rarity": "uncommon",
-  "defaultDisplay": "the Smiling Friends"
+  "defaultDisplay": "the Smiling Friend"
 }
