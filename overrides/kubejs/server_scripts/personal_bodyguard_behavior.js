@@ -45,14 +45,14 @@ ItemEvents.rightClicked(event => {
     }
 
     if (selectedEntity) {
-        let entityTag = `temp_${Date.now()}`;
+        let entityTag = `temp_${username}_${Date.now()}`;
 
        
         server.runCommandSilent(`execute at ${username} run summon ${selectedEntity} ~ ~5 ~5 {DeathLootTable:"minecraft:empty"}`);
 
-        
+        server.scheduleInTicks(1, () => {
         server.runCommandSilent(`execute at ${username} run tag @e[type=${selectedEntity},distance=..50,limit=1,sort=nearest] add ${entityTag}`);
-
+        });
 
         server.scheduleInTicks(2000, () => {
             server.runCommandSilent(`execute as @e[tag=${entityTag}] at @s run particle minecraft:squid_ink ~ ~1 ~ 0.5 1 0.5 0.01 100 force`);
