@@ -92,13 +92,13 @@ subterranodonFlightMeterUsageSpeed = 1.0
 	# Damage amount for melee attack with Extinction Spear.
 	#
 	#Range: 0.0 ~ 10000.0
-	extinctionSpearMeleeDamage = 18.0
+	extinctionSpearMeleeDamage = 25.0
 	#----------------------------------
 	#
 	# Damage amount for ranged attack with Extinction Spear.
 	#
 	#Range: 0.0 ~ 10000.0
-	extinctionSpearRangedDamage = 45.0
+	extinctionSpearRangedDamage = 65.0
 
 ["Raygun Options"]
 	#----------------------------------
